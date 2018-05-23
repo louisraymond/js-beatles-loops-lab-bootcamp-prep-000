@@ -1,7 +1,8 @@
+<<<<<<< HEAD
 function theBeatlesPlay(musicians, instruments) {
   const arr = []
 
-  for (let i = 0, l = musicians.length; i < l; i++) {
+  for (let i = 0, i < musicians.length; i++) {
     arr.push(`${musicians[i]} plays ${instruments[i]}`)
   }
 
@@ -30,3 +31,14 @@ function iLoveTheBeatles(n) {
 
   return arr
 }
+=======
+const musicians = ["John", "Paul", "George", "Ringo"];
+
+const instruments = ["guitar", "guitar", "bass", "drums"];
+
+function theBeatlesPlay(musicians, instruments) {
+  var array = [];
+  for (var i=0;i<4,i++){
+    
+  }
+>>>>>>> d56f76389a7c69afccd453bc8ffb6ebc6d3e3509
